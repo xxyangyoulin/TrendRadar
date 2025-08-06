@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 42</p><p>生成时间: 2025-08-06 21:38:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">5</td>
+                <td class="percentage">11.9%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://m.weibo.cn/search?containerid=100103type%3D1%26t%3D10%26q%3D%23%E6%A8%8A%E6%8C%AF%E4%B8%9C%E6%8A%95%E8%B5%84%E7%BE%8E%E5%9B%BD%E8%81%8C%E4%B8%9A%E4%B9%92%E4%B9%93%E7%90%83%E5%A4%A7%E8%81%94%E7%9B%9F%23&amp;stream_entry_id=31&amp;isnewpage=1&amp;extparam=seat%3D1%26filter_type%3Drealtimehot%26pos%3D1%26c_type%3D31%26cate%3D5001%26q%3D%2523%25E6%25A8%258A%25E6%258C%25AF%25E4%25B8%259C%25E6%258A%2595%25E8%25B5%2584%25E7%25BE%258E%25E5%259B%25BD%25E8%2581%258C%25E4%25B8%259A%25E4%25B9%2592%25E4%25B9%2593%25E7%2590%2583%25E5%25A4%25A7%25E8%2581%2594%25E7%259B%259F%2523%26dgr%3D0%26stream_entry_id%3D31%26lcate%3D5001%26band_rank%3D2%26flag%3D1%26realpos%3D2%26display_time%3D1754487313%26pre_seqid%3D1754487313432050937694" target="_blank" class="news-link">樊振东投资美国职业乒乓球大联盟</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535413935688650294/" target="_blank" class="news-link">如何看待日本核立场大反转</a> [9] <font color='grey'>- 21时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535025793723482122/" target="_blank" class="news-link">郭焱分析WTT日本横滨冠军赛抽签</a> [20] <font color='grey'>- 21时38分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1926745246135484700" target="_blank" class="news-link">为什么杂鱼这个词在日本很有攻击力？</a> [20] <font color='grey'>- 21时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535335825790500873/" target="_blank" class="news-link">普京与美国特使会面两人微笑握手</a> [26] <font color='grey'>- 21时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">3</td>
+                <td class="percentage">7.14%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534532623910043699/" target="_blank" class="news-link">中国市场是全球发展最快增量市场</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534511132015345674/" target="_blank" class="news-link">媒体人：中国男篮首战喜忧参半</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时38分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534667007657623579/" target="_blank" class="news-link">外国舰机靠近时中国军舰从容应对</a> [19] <font color='grey'>- 21时38分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">2.38%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752737" target="_blank" class="news-link">四巨头“烧钱凶猛”，非美和二线云厂被低估，GB200良率提升！大摩对AI服务器非常乐观</a> [10] <font color='grey'>- 21时38分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
