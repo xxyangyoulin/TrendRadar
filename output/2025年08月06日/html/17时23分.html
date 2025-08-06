@@ -1,0 +1,111 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 72</p><p>生成时间: 2025-08-06 17:23:17</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">5</td>
+                <td class="percentage">6.94%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E7%AC%AC%E4%B8%80%E7%9C%81%E6%98%93%E4%B8%BB" target="_blank" class="news-link">中国汽车第一省易主</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2194409" target="_blank" class="news-link">25岁中国翼装飞行者意大利遇难</a> [11] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=25%E5%B2%81%E4%B8%AD%E5%9B%BD%E7%BF%BC%E8%A3%85%E9%A3%9E%E8%A1%8C%E8%80%85%E6%92%9E%E5%B2%A9%E5%A3%81%E8%BA%AB%E4%BA%A1" target="_blank" class="news-link">25岁中国翼装飞行者撞岩壁身亡</a> [12] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31301874" target="_blank" class="news-link">“中国科学院院士阮少平”被打假，近年在多所小学登台</a> [20] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535003090047500330/" target="_blank" class="news-link">中国翼装飞行者在意大利撞山壁遇难</a> [27] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">2.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2107672" target="_blank" class="news-link">一图看懂 | 机器人产业“盛宴开启” 8月重磅大事一览</a> [8] <font color='grey'>- 17时23分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2107737" target="_blank" class="news-link">【每日收评】沪指三连阳逼近年内高点！全市场近百股涨超9%，机器人、军工股双双爆发</a> [12] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">英伟达 NVIDIA 黄仁勋</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7535363243871571507/" target="_blank" class="news-link">媒体：黄仁勋掉进了一个更深的坑</a> [17] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752718" target="_blank" class="news-link">六年来首次！OpenAI新模型开放权重，Altman称为“全球最佳开放模型”</a> [10] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">1</td>
+                <td class="percentage">1.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7534489713479172132/" target="_blank" class="news-link">美国试图加强追踪人工智能芯片流向</a> [24] <font color='grey'>- 17时23分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
